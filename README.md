@@ -1,9 +1,9 @@
-intl-writing-awards
+test-writing-awards
 ===================
-Scholastic Writing Awards setup in unix/linux based system
+test Writing Awards setup in unix/linux based system
 --------------------------------------------------------------
 
-intl-writing-awards(Parent Module)
+test-writing-awards(Parent Module)
 ==============================================================
 Sub modules
 writing-awards
@@ -15,7 +15,7 @@ Technologies: JPA, EJB, JPA, JAX-RS, RESTEASY, VELOCITY
 UI : AngularJS, CSS, HTML, JQUERY
 DB : MySql
 Target Product: WAR
-Source: https://github.com/ScholasticInc/intl-writing-awards.git
+Source: https://github.com/testInc/test-writing-awards.git
 
 
 System requirements
@@ -59,7 +59,7 @@ Configure MySql 5.5.x
 
 Folder Structure under awards module
 --------------------------------------------------------------
-Top folder intl-writing-awards/awards
+Top folder test-writing-awards/awards
 src/main/webapp  
 Web application folder
 src/main/java  Java Source Folder
@@ -72,12 +72,12 @@ target  folder contains all the compiled class
 Build and Deploy
 --------------------------------------------------------------
 
-1) Clone from https://github.com/ScholasticInc/intl-writing-awards.git to a folder(like swa is the SRC_DIR)
-(git clone https://github.com/ScholasticInc/intl-writing-awards.git)
-2) Navigate to SRC_DIR/intl-writing-awards and checkout dev branch(git checkout dev)
-3) Run the command mvn clean package from SRC_DIR/intl-writing-awards
-4) The war(awards.war) file will be available under SRC_DIR/intl-writing-awards/awards/target
-5) Copy SRC_DIR/intl-writing-awards/writing-awards/target/writingawards.war to JBOSS_HOME/standalone/deployments/
+1) Clone from https://github.com/testInc/test-writing-awards.git to a folder(like swa is the SRC_DIR)
+(git clone https://github.com/testInc/test-writing-awards.git)
+2) Navigate to SRC_DIR/test-writing-awards and checkout dev branch(git checkout dev)
+3) Run the command mvn clean package from SRC_DIR/test-writing-awards
+4) The war(awards.war) file will be available under SRC_DIR/test-writing-awards/awards/target
+5) Copy SRC_DIR/test-writing-awards/writing-awards/target/writingawards.war to JBOSS_HOME/standalone/deployments/
 
 
 Start JBoss Enterprise Application Platform 6 or JBoss AS 7 with the Web Profile
@@ -105,7 +105,7 @@ Running Database Migrations
 -------------------------------------------------------------------------------
 Go to the folder 
 
-intl-writing-awards/writing-awards-db
+test-writing-awards/writing-awards-db
 
 See what migrations have already been applied
 
